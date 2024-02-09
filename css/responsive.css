@@ -1,0 +1,100 @@
+@media screen and (max-width:770px) {
+    .navbar{
+        width: 90%;
+    }
+    .logo a{
+        font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(44, 37, 37);
+        width: 100%;
+        left: 0;
+        padding: 0 5%;
+        gap: 0;
+    }
+    .nav_links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0px;
+        padding: 10px 0;
+    }
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
+    /*----------- HOME KISMI -----------*/
+    .inner_anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 50px;
+        width: 90%;
+    }
+    .inner_anasayfa .child_anasayfa{
+        flex-basis: 100%;
+        gap: 20px;
+    }
+    .inner_anasayfa .child_anasayfa h1{
+        font-size: 36px;
+    }
+    .inner_anasayfa .child_anasayfa p{
+        font-size: 18px;
+    }
+    .inner_anasayfa .child_anasayfa img{
+       width: 100%;
+    }
+    /*---------- YAZILIMLAR -----------*/
+    .innersoftware{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;    
+    }
+    /*---------- BAŞARILAR -------------*/
+    .inner_achivement{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .child_achivement{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .child_achivement img{
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    /*--------- HAKKIMDA ------*/
+    .inner_testi{
+        gap: 20px;
+    }
+    .child_testi{
+        flex-basis: 100%;
+        background-color: #183d59;
+        border-radius: 10px;
+        padding: 10px;        
+    }
+
+     /*--------- İLETİŞİM ------*/
+    .child_contact{
+        flex-basis: 100%;
+    }
+
+    /* FOOTER */
+    .inner_footer{
+        flex-direction: column;
+        gap: 60px;        
+    }
+   
+}

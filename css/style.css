@@ -86,12 +86,16 @@ header{
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    gap: 10%;
 }
 .child_anasayfa{
     flex-basis: 45%;
 }
+.child_anasayfa img{
+    width: 100%;
+}
 .child_anasayfa h1{
-    font-size: 50px;
+    font-size: 4vw;
     color: #24caac;
 }
 .span_child{
